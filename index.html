@@ -10,6 +10,7 @@
     <meta name="kwywords" content="Mi pagina web, Victor Hugo, Victor Caraballo, experiencia, web, uruguay, Edil, barato, unico, ideal, creativo, ayuda">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="Sobre Mi.html">
+    <link rel="stylesheet" href="enviar.css">
 
 </head>
 
@@ -82,30 +83,33 @@
 
     <div class="contacto">
 
-        <hgroup> <h3> CONTACTO </h3> </hgroup>
+        <hgroup> <h2> CONTACTO </h2> </hgroup>
 
     </div>
 
     <!--[ GMAIL ]-->
 
-        <form action="enviar.php" method="post" class="form_contact" name="contacto" netlify>
-            <h2>Envia un mensaje</h2>
-            <div class="user_info">
-                <label for="names">Nombres *</label>
-                <input type="text" id="names" name="nombre" required>
+    <div class="contactt">
+    <form action="enviar.php" method="post" class="form_contact" name="contacto" netlify>
+        <h3 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Comunicate Con Victor Caraballo</h3>
+        <div class="user_info">
 
-                <label for="phone">Telefono / Celular</label>
-                <input type="text" id="phone" name="telefono">
+            <label for="names">NOMBRE</label>
+            <input type="text" id="names" name="nombre" required>
 
-                <label for="email">Correo electronico *</label>
-                <input type="text" id="email" name="correo" required>
+            <label for="phone">TELEFONO</label>
+            <input type="text" id="phone" name="telefono" required>
 
-                <label for="mensaje">Mensaje *</label>
-                <textarea id="mensaje" name="mensaje" required></textarea>
+            <label for="email">CORREO ELECTRONICO</label>
+            <input type="text" id="email" name="correo" required>
 
-                <input type="submit" value="Enviar Mensaje" id="btnSend">
-            </div>
-        </form>
+            <label for="mensaje">COMUNICADO</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <input type="submit" value="Enviar" id="btnSend">
+        </div>
+    </form>
+    </div>
 
 </body>
 
