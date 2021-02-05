@@ -3,8 +3,6 @@
     border: 10px solid black;  
     font-family: Arial, Helvetica, sans-serif;
     background: white;
-    max-width: 30%;
-    max-height: 30%;
 
 }
 
@@ -19,45 +17,31 @@
 
 #names {
 
-    display: block;
     margin-bottom: 1%;
-    max-width: 80%;
-    max-height: 80%;
 
 }
 
 #phone {
 
-   display: block;
    margin-bottom: 1%;
-   max-width: 80%;
-   max-height: 80%;
 
 }
 
 #email {
 
-    display: block;
     margin-bottom: 1%;
-    max-width: 80%;
-    max-height: 80%;
 
 }
 
 #mensaje {
 
-    display: block;
     margin-bottom: 1%;
-    max-width: 80%;
-    max-height: 80%;
+    margin-bottom: -1%;
 
 }
 
 #btnSend {
-
-    display: block;
+ 
     margin-bottom: 1%;
-    max-width: 80%;
-    max-height: 80%;
 
 }
