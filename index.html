@@ -88,27 +88,24 @@
 
     <!--[ GMAIL ]-->
 
-    <form id="contactform" action="contacto.php" name="contactoform" method="POST">
-        
-    <fieldset>
-        <div>
-            <input type="text" name="nombre" id="first_name" placeholder="Nombre">
-        </div>
-        <div>
-            <input type="text" name="apellido" id="last_name" placeholder="Apellido Paterno">
-        </div>
-        <div>
-            <input type="email" name="email" id="email" placeholder="Email">
-        </div>
-        <div>
-            <input type="text" name="numero" id="phone" placeholder="Teléfono">
-        </div>
-        <div>
-            <textarea class="form-control" name="mensaje" id="comments" rows="6"></textarea>
-        </div>
-        <input type="submit" name="enviar" value="Enviar">
-    </fieldset>
-</form>
+        <form action="enviar.php" method="post" class="form_contact">
+            <h2>Envia un mensaje</h2>
+            <div class="user_info">
+                <label for="names">Nombres *</label>
+                <input type="text" id="names" name="nombre" required>
+
+                <label for="phone">Telefono / Celular</label>
+                <input type="text" id="phone" name="telefono">
+
+                <label for="email">Correo electronico *</label>
+                <input type="text" id="email" name="correo" required>
+
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <input type="submit" value="Enviar Mensaje" id="btnSend">
+            </div>
+        </form>
 
 </body>
 
