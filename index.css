@@ -235,6 +235,60 @@
 
 }
 
+.contactt {
+
+    border: 5px solid black;  
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+
+}
+
+.form_contact {
+
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-top: 3%;
+
+}
+
+#names {
+
+    margin-bottom: 1%;
+    width: 22%;
+
+}
+
+#phone {
+
+   margin-bottom: 1%;
+   width: 22%;
+
+}
+
+#email {
+
+    margin-bottom: 1%;
+    width: 22%;
+
+}
+
+#mensaje {
+
+    margin-bottom: 1%;
+    margin-bottom: -1%;
+    width: 22%;
+
+}
+
+#btnSend {
+ 
+    margin-bottom: 1%;
+    width: 10%;
+
+}
+
+
 footer {
 
     margin-top: 2%;
