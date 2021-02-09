@@ -30,7 +30,7 @@
 
 .sobremi {
 
-    border: 1px solid black;
+    border: 2px solid black;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -80,7 +80,8 @@
 
 .fecha h3 {
 
-    margin-left: 50%;
+    margin-left: 40%;
+
 
 }
 
@@ -97,14 +98,17 @@
 .multimedia img {
 
     width: 145%;
+    height: 159px;
 
 }
 
 #informaciondd {
 
     text-align: center;
-    background: cornflowerblue;
+    background: rgba(34, 121, 113, 0.945);
     font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    margin-bottom: 1%;
 
 }
 
@@ -147,11 +151,87 @@
 
 }
 
+#comentarios {
+
+    text-align: center;
+    background: rgba(34, 121, 113, 0.945);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    margin-bottom: 1%;
+
+
+}
+
+.nombre {
+
+    display: block;
+    margin-bottom: 1%;
+
+}
+
 .contacto {
 
     text-align: center;
-    background: cornflowerblue;
+    background: rgba(34, 121, 113, 0.945);
     font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    margin-bottom: 1%;
+
+}
+
+#propositotl {
+
+    text-align: center;
+    background: rgba(34, 121, 113, 0.945);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    margin-bottom: 1%;
+
+}
+
+#proposito {
+
+    border: 1px solid black;
+    margin-bottom: 1%;
+    background: white;
+    width: 99.7%;
+
+}
+
+#pt {
+
+    text-align: center;
+
+}
+
+#ptext {
+
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+
+}
+
+#porquecon {
+
+    border: 1px solid black;
+    margin-bottom: 1%;
+    background: white;
+    width: 99.7%;
+    margin-bottom: 2%;
+
+}
+
+#pc {
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#pctext {
+
+    margin-left: 1.5%;
+    margin-right: 1.5%;
 
 }
 
