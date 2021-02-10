@@ -186,6 +186,7 @@
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid black;
     margin-bottom: 1%;
+    overflow: hidden
 
 }
 
@@ -195,6 +196,7 @@
     margin-bottom: 1%;
     background: white;
     width: 99.7%;
+    overflow: hidden
 
 }
 
