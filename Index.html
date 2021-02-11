@@ -16,16 +16,36 @@
 
 
 <body background="imagenes/fondob2.png" style="margin-right: 0.5%;">
+    
 
     <header>
         
-            <nav class="bsobremi"> <!--[ BOTÓN BIOGRAFIA ]-->
+            <nav id="bsobremi"> <!--[ BOTÓN BIOGRAFIA ]-->
                
                 <h1 class="cabecera"> Victor Caraballo <img id="verificado" src="imagenes/verificado2.png" alt="Verificado" title="Verificado"> </h1>
             
             </nav>
 
     </header> 
+
+    <div class="selector"> 
+
+        <nav class="navegacion">
+			<ul class="menu">
+				<li><a href="#bsobremi">Inicio</a></li>
+				<li><a href="#informaciondd">Actividad</a></li>
+					<ul class="submenu">
+						<li><a href="#">Servicio #1</a></li>
+						<li><a href="#">Servicio #2</a></li>
+						<li><a href="#">Servicio #3</a></li>
+					</ul>
+				</li>
+				<li><a href="#contactt">Contacto</a></li>
+			</ul>
+		</nav>
+
+    </div>
+
 
     <div id="div_contenedor">
 
@@ -54,6 +74,7 @@
     </div>
     
 <div>
+    
     <div id="propositotl">
 
         <hgroup> <h2>  PROPOSITO DE LA PAGINA  </h2> </hgroup>
@@ -130,7 +151,7 @@
 
     </div>              
 
-    <div class="contactt">
+    <div id="contactt">
     <form action="enviar.php" method="post" class="form_contact" name="contacto" netlify>
         <h3 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Comunicate Con Victor Caraballo</h3>
         <div class="user_info">
@@ -152,17 +173,6 @@
     </form>
     </div>
 
-	<center><script type="text/javascript">
-	atOptions = {
-		'key' : 'f3b5b847237733dca5a8d46053a8133d',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.displaynetworkcontent.com/f3b5b847237733dca5a8d46053a8133d/invoke.js"></scr' + 'ipt>');
-	</script></center>	
-	
 </body>
 
 <footer> 
